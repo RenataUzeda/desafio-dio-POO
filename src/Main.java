@@ -35,12 +35,14 @@ public class Main {
         System.out.println("Conteudos inscritos " + developer1.getNome() + developer1.getConteudosInscritos());
         developer1.progredir();
         developer1.progredir();
-        System.out.println("-");
-        System.out.println("Conteudos inscritos " + developer1.getNome() + developer1.getConteudosInscritos());
+        System.out.println(" ");
+        System.out.println("Conteudos inscritos para concluir " + developer1.getNome() + developer1.getConteudosInscritos());
         System.out.println("Conteudos concluidos " + developer1.getNome() + developer1.getConteudosConcluidos());
         System.out.println("XP: " + developer1.calcularTotalXp());
 
+        System.out.println(" ");
         System.out.println("---------------");
+        System.out.println(" ");
 
         Dev developer2 = new Dev();
         developer2.setNome("Artur");
@@ -49,8 +51,9 @@ public class Main {
         developer2.progredir();
         developer2.progredir();
         developer2.progredir();
-        System.out.println("-");
-        System.out.println("Conteudos inscritos " + developer2.getNome() + developer2.getConteudosInscritos());
+        developer2.progredir();
+        System.out.println(" ");
+        System.out.println("Conteudos inscritos para concluir " + developer2.getNome() + developer2.getConteudosInscritos());
         System.out.println("Conteudos concluidos " + developer2.getNome() + developer2.getConteudosConcluidos());
         System.out.println("XP: " + developer2.calcularTotalXp());
     }
