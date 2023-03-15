@@ -1,109 +1,105 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# Created by https://www.toptal.com/developers/gitignore/api/java,eclipse,intellij,git,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,eclipse,intellij,git,visualstudiocode
 
-# Criado por https://www.toptal.com/developers/gitignore/api/java,intellij,eclipse,visualstudiocode,git
-# Edite em https://www.toptal.com/developers/gitignore?templates=java,intellij,eclipse,visualstudiocode,git
-
-###Eclipse###
+### Eclipse ###
 .metadata
-caixa/
+bin/
 tmp/
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
-.configurações/
+.settings/
 .loadpath
 .recommenders
 
-# Construtores de ferramentas externas
+# External tool builders
 .externalToolBuilders/
 
-# "Configurações de inicialização do Eclipse" armazenadas localmente
-*.lançar
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# PyDev específico (Python IDE para Eclipse)
+# PyDev specific (Python IDE for Eclipse)
 *.pydevproject
 
-# Específico do CDT (ferramentas de desenvolvimento C/C++)
-.cprojeto
+# CDT-specific (C/C++ Development Tooling)
+.cproject
 
-# CDT- ferramentas automáticas
+# CDT- autotools
 .autotools
 
-# Processador de anotações Java (APT)
+# Java annotation processor (APT)
 .factorypath
 
-# Específico para PDT (ferramentas de desenvolvimento PHP)
+# PDT-specific (PHP Development Tools)
 .buildpath
 
-# plug-in sbteclipse
-.alvo
+# sbteclipse plugin
+.target
 
-# plugin Tern
+# Tern plugin
 .tern-project
 
-# plug-in TeXlipse
+# TeXlipse plugin
 .texlipse
 
 # STS (Spring Tool Suite)
 .springBeans
 
-# Recomendadores de código
-.recomendadores/
+# Code Recommenders
+.recommenders/
 
-# Processamento de anotação
+# Annotation Processing
 .apt_generated/
 .apt_generated_test/
 
-# Scala IDE específico (Desenvolvimento Scala e Java para Eclipse)
-.cache-principal
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
 .scala_dependencies
-.planilha
+.worksheet
 
-# Descomente esta linha se desejar ignorar o arquivo de descrição do projeto.
-# Normalmente, este arquivo seria rastreado se contiver configurações de compilação/dependência:
-#.projeto
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+#.project
 
-### Atualização do Eclipse ###
-# Ferramentas de inicialização do Spring
+### Eclipse Patch ###
+# Spring Boot Tooling
 .sts4-cache/
 
 ### Git ###
-# Criado por git para backups. Para desabilitar backups no Git:
+# Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
 *.orig
 
-# Criado pelo git ao usar ferramentas de mesclagem para conflitos
-*.CÓPIA DE SEGURANÇA.*
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
 *.BASE.*
 *.LOCAL.*
-*.CONTROLO REMOTO.*
+*.REMOTE.*
 *_BACKUP_*.txt
 *_BASE_*.txt
 *_LOCAL_*.txt
-*_REMOTO_*.txt
+*_REMOTE_*.txt
 
 ### Intellij ###
-# Abrange IDEs JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm e Rider
-# Referência: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# Material específico do usuário
+# User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
-.idea/**/dicionários
-.idéia/**/prateleira
+.idea/**/dictionaries
+.idea/**/shelf
 
-# Específico do usuário da AWS
+# AWS User-specific
 .idea/**/aws.xml
 
-# Arquivos gerados
+# Generated files
 .idea/**/contentModel.xml
 
-# Arquivos confidenciais ou de alta rotatividade
+# Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids
 .idea/**/dataSources.local.xml
@@ -112,116 +108,116 @@ local.properties
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
-#Gradle
+# Gradle
 .idea/**/gradle.xml
 .idea/**/libraries
 
-# Gradle e Maven com importação automática
-# Ao usar Gradle ou Maven com importação automática, você deve excluir arquivos de módulo,
-# já que eles serão recriados e podem causar rotatividade. Descomente se estiver usando
-# importação automática.
-# .ideia/artefatos
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
 # .idea/compiler.xml
 # .idea/jarRepositories.xml
 # .idea/modules.xml
 # .idea/*.iml
-# .idéia/módulos
+# .idea/modules
 # *.iml
 # *.ipr
 
-#CMake
+# CMake
 cmake-build-*/
 
-# Plug-in Mongo Explorer
+# Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
-# Formato de projeto baseado em arquivo
+# File-based project format
 *.iws
 
-#IntelliJ
-fora/
+# IntelliJ
+out/
 
-# plug-in mpeltonen/sbt-idea
+# mpeltonen/sbt-idea plugin
 .idea_modules/
 
-# plug-in do JIRA
+# JIRA plugin
 atlassian-ide-plugin.xml
 
-# plugin Cursive Clojure
+# Cursive Clojure plugin
 .idea/replstate.xml
 
-# plug-in SonarLint
-.idéia/sonarlint/
+# SonarLint plugin
+.idea/sonarlint/
 
-# Plugin Crashlytics (para Android Studio e IntelliJ)
+# Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
-tecido.propriedades
+fabric.properties
 
-# Cliente de descanso baseado em editor
+# Editor-based Rest Client
 .idea/httpRequests
 
-# Android studio 3.1+ arquivo de cache serializado
+# Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-### Patch Intellij ###
-# Motivo do comentário: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
 # *.iml
-# módulos.xml
+# modules.xml
 # .idea/misc.xml
 # *.ipr
 
-# plug-in Sonarlint
+# Sonarlint plugin
 # https://plugins.jetbrains.com/plugin/7973-sonarlint
 .idea/**/sonarlint/
 
-# Plugin do SonarQube
+# SonarQube Plugin
 # https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
 .idea/**/sonarIssues.xml
 
-# Plug-in Markdown Navigator
+# Markdown Navigator plugin
 # https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
 .idea/**/markdown-navigator.xml
 .idea/**/markdown-navigator-enh.xml
 .idea/**/markdown-navigator/
 
-# Bug de criação de arquivo de cache
-# Consulte https://youtrack.jetbrains.com/issue/JBR-2257
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
 .idea/$CACHE_FILE$
 
-# plug-in CodeStream
+# CodeStream plugin
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
-# Kit de ferramentas do Azure para plug-in IntelliJ
+# Azure Toolkit for IntelliJ plugin
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
 
-###Java###
-# Arquivo de classe compilado
-*.aula
+### Java ###
+# Compiled class file
+*.class
 
-# Arquivo de log
-*.registro
+# Log file
+*.log
 
-# Arquivos BlueJ
+# BlueJ files
 *.ctxt
 
-# Ferramentas móveis para Java (J2ME)
+# Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Arquivos de pacote #
-*. jarra
-*.guerra
+# Package Files #
+*.jar
+*.war
 *.nar
-*.orelha
-*.fecho eclair
+*.ear
+*.zip
 *.tar.gz
 *.rar
 
-# logs de travamento da máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
 
@@ -233,15 +229,15 @@ replay_pid*
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
-# Histórico local para código do Visual Studio
-.história/
+# Local History for Visual Studio Code
+.history/
 
-# Extensões de código do Visual Studio criadas
+# Built Visual Studio Code Extensions
 *.vsix
 
-### Correção do VisualStudioCode ###
-# Ignora todo o histórico local de arquivos
-.história
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
 .ionide
 
-# Fim de https://www.toptal.com/developers/gitignore/api/java,intellij,eclipse,visualstudiocode,git
+# End of https://www.toptal.com/developers/gitignore/api/java,eclipse,intellij,git,visualstudiocode
