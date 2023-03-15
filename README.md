@@ -148,5 +148,6 @@ Se possível:<br>
 
 
 ------------
-CRÈDITOS:
+
+CRÉDITOS:
 Disponibilizado com ♥ por [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la").
