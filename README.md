@@ -149,6 +149,6 @@ Se possível:<br>
 
 ------------
 
-CRÉDITOS:
+CRÉDITOS:<br>
 Disponibilizado com ♥ por [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la").<br>
 https://github.com/cami-la/desafio-poo-dio
